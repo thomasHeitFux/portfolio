@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.child{
+    color: white;
+}
+.section{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.images{
+    height: 200px;
+    width: 400px;
+}
+
+
+/*  */
+.galery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5px;
+}
+.galery_img{
+    width: 100%;
+}

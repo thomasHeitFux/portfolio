@@ -3,7 +3,7 @@ import style from "./About.module.css";
 
 export default function About() {
     return (
-        <div>
+        <div className={style.container}>
             <p >Hi, I’m Dejan. I'm a multi-talented human with over 10+ years of experiences in wide range of design disciplines.
             </p>
             <p>

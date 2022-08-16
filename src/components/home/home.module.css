@@ -27,7 +27,7 @@ body {
     right: 0;
     bottom: 0;
     left: 0%;
-    background-image: url('../../images/sinfondo.png');
+    background-image: url('../../images/sinfondolight.png');
     background-repeat: no-repeat;
     background-size: cover;
     animation: photo 1.2s cubic-bezier(.5, .6, .6, 1);

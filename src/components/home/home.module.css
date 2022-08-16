@@ -26,16 +26,7 @@ img{
     flex-direction: column;
     align-items:center;
 }
-/* 
-.awhite{
-    color: white;
-    font-weight: 700;
-    font-size: 110px;
-    margin: 5px;
-    margin-right: 100px;
-    transition: all 1.5s;
-    animation: animation 3.0s;
-} */
+
 a{
     text-decoration: none;
     transition: all 1.5s;
@@ -47,7 +38,7 @@ a{
     margin-right: 100px;
     color: white;
     /* color: rgb(229, 255, 0); */
-    transition: all 1.5s;
+    transition: all 0.5s;
     animation: animation 3.0s;
 }
 @keyframes animation {

@@ -9,11 +9,17 @@ import admin2 from '../../images/admin2.jpeg'
 import admin3 from '../../images/admin3.jpeg'
 import admin4 from '../../images/admin4.jpeg'
 import admin5 from '../../images/admin5.jpeg'
+import Button from '../mini-components/button';
+import { Link } from "react-router-dom"
 
 export default function Work() {
     return (
         <div className={style.container}>
-            {/* <a href='https://poke-app-three-bice.vercel.app/' target='_blank' className={style.child}>Pokemon-App</a> */}
+             <div className={style.back}>
+            <Link to={'/'}>
+                <Button valor='Home'  />
+            </Link>
+            </div>
             <a className={style.child}>Marvel-App</a>
             <a href='https://planb-rho.vercel.app/' target='_blank' className={style.child}>Shoes-Ecommerce</a>
             <section className={style.section}>

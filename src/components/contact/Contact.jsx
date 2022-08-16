@@ -1,31 +1,32 @@
 import React from 'react';
 import style from "./Contact.module.css";
 import { Link } from "react-router-dom"
+import Button from '../mini-components/button';
 
 
 export default function Contact() {
     return (
         <div>
+            
             <Link to={'/'}>
-                <p className={style.back}>Thomas</p>
+                <Button valor='Home'  />
             </Link>
-            <section className={style.title}>
-                <h2>Contacto</h2>
-            </section>
+
+            <h2 className={style.title}>Contact</h2>
             <section className={style.paragraph}>
                 <p >Busco oportunidades para colaborar con empresas/agencias/individuos, no solo trabajar para ellos. Quiero traer mi experiencia de diseño colectivo a la mesa donde podamos trabajar juntos para resolver problemas comerciales reales de una manera que optimice toda nuestra experiencia y conocimiento respectivos.
                 </p>
                 <p>
-                Quiero evitar conflictos sin sentido y favorecer a los colaboradores de mente abierta donde los egos están fuera de la ecuación.
-                Si todo eso suena bien, entonces conversemos sobre cómo podemos trabajar juntos.
+                    Quiero evitar conflictos sin sentido y favorecer a los colaboradores de mente abierta donde los egos están fuera de la ecuación.
+                    Si todo eso suena bien, entonces conversemos sobre cómo podemos trabajar juntos.
                 </p>
                 <p>
-                No dude en comunicarse a través de cualquiera de las plataformas a continuación:
+                    No dude en comunicarse a través de cualquiera de las plataformas a continuación:
                 </p>
             </section>
-            <div className={style.container2}>
-                <a href='https://www.linkedin.com/in/dominguezthomas/' className={style.animate}>Linkedin</a>
-                <a href='https://github.com/thomasHeitFux/' className={style.animate}>Github</a>
+            <div >
+                <a href='https://www.linkedin.com/in/dominguezthomas/' target={'_blank'} className={style.animate}>Linkedin</a>
+                <a href='https://github.com/thomasHeitFux/' target={'_blank'} className={style.animate}>Github</a>
             </div>
             <form method="post" action="#">
                 <div className={style.father}>

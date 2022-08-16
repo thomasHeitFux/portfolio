@@ -1,8 +1,14 @@
 import React from 'react';
 import style from "./About.module.css";
+import { Link } from "react-router-dom"
+import Button from '../mini-components/button';
 
 export default function About() {
     return (
+        <div>
+              <Link to={'/'}>
+                <Button valor='Home'  />
+            </Link>
         <div className={style.container}>
             <p >Hi, I’m Dejan. I'm a multi-talented human with over 10+ years of experiences in wide range of design disciplines.
             </p>
@@ -15,6 +21,7 @@ export default function About() {
             <p>
             I like to develop expertise in a number of areas over the course of my life and career. My personality type is ENTJ.  I currently work remotely with a selected freelance client base and are open for new opportunities.
             </p>
+        </div>
         </div>
     )
 }

@@ -5,7 +5,7 @@ import Button from '../mini-components/button';
 
 export default function About() {
     return (
-        <div>
+        <div className={style.father}>
               <Link to={'/'}>
                 <Button valor='Home'  />
             </Link>

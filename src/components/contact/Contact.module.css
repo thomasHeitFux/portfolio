@@ -1,3 +1,8 @@
+.container {
+    padding-bottom: 3vh;
+    padding-top: 3vh;
+    background-color: #000;
+}
 
 form {
     font-weight: 400;
@@ -14,7 +19,7 @@ form {
     border-top: 1px solid rgba(255, 255, 255, 0.2);
     border-left: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(5px);
-    margin-bottom: 3vh;
+
 }
 
 .father {
@@ -27,12 +32,14 @@ form {
     display: flex;
     margin-bottom: 2%;
     flex-direction: column;
-  
+
 }
-input,textarea{
+
+input,
+textarea {
     text-decoration: none;
     border: none;
-    background:rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.1);
     width: 100%;
     padding: 6px;
     border-radius: 4px;
@@ -41,7 +48,9 @@ input,textarea{
     font-size: 18px;
     outline: none;
 }
-.div1,.div2{
+
+.div1,
+.div2 {
     width: 49%;
 }
 
@@ -56,11 +65,11 @@ input,textarea{
     margin-right: 30%;
 }
 
-.title{
+.title {
     color: white;
 }
 
-.paragraph{
+.paragraph {
     line-height: 170%;
     font-size: 20px;
     margin-bottom: 3vh;
@@ -74,18 +83,19 @@ input,textarea{
     margin-left: 25%;
 }
 
-.animate{
+.animate {
     font-weight: 700;
     font-size: 20px;
     margin: 15px;
     color: rgb(229, 252, 30);
     transition: all .5s;
 }
-.animate:hover{
+
+.animate:hover {
     color: #fff;
 }
 
-.button{
+.button {
     margin: 20px;
     position: relative;
     padding: 10px 18px;
@@ -98,51 +108,58 @@ input,textarea{
     overflow: hidden;
     border-radius: 4px;
 }
-.button:hover{
+
+.button:hover {
     color: #fff;
 }
 
-.button span{
+.button span {
     position: absolute;
     background: rgb(229, 252, 30);
     transition: .5s;
 }
 
-.button span:nth-child(1){
+.button span:nth-child(1) {
     width: 100%;
     height: 2px;
     top: 95%;
     right: -100%;
 }
-.button span:nth-child(2){
+
+.button span:nth-child(2) {
     width: 100%;
     height: 2px;
     bottom: 95%;
     /* bottom: 100%; */
     left: -100%;
 }
-.button span:nth-child(3){
+
+.button span:nth-child(3) {
     width: 2px;
     height: 100%;
     bottom: -100%;
     left: 0;
 }
-.button span:nth-child(4){
+
+.button span:nth-child(4) {
     width: 2px;
     height: 100%;
     top: -100%;
     right: 0%;
 }
 
-.button:hover span:nth-child(1){
-    right:0;
+.button:hover span:nth-child(1) {
+    right: 0;
 }
-.button:hover span:nth-child(2){
-    left:0;
+
+.button:hover span:nth-child(2) {
+    left: 0;
 }
-.button:hover span:nth-child(3){
-    bottom:0;
+
+.button:hover span:nth-child(3) {
+    bottom: 0;
 }
-.button:hover span:nth-child(4){
-    top:0;
+
+.button:hover span:nth-child(4) {
+    top: 0;
 }

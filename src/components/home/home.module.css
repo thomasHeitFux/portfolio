@@ -1,56 +1,100 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background-color: rgb(0, 0, 0);
-}
-.father{
-    display: flex;
+    min-height: 100vh; 
+    background-image: url("../../images/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     width: 100%;
-}
-.img{}
 
-img{
-    height: 800px;
 }
 
-.container{
-    /* harcodeao */
-    width: 120%;
-     /* harcodeao */
+.father {
+    display: flex;
+    /* min-width: 320px;
+ max-width: 1000px; */
+}
+
+.photo {
+    z-index: -9;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0%;
+    background-image: url('../../images/sinfondo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: photo 1.2s cubic-bezier(.5, .6, .6, 1);
+    animation-fill-mode: backwards;
+    width: 700px;
+    /* object-fit: cover; */
+}
+
+@media screen and (max-width: 767px) {
+    .photo {
+        animation: photo .6s cubic-bezier(.5, .6, .6, 1);
+    }
+}
+
+@keyframes photo {
+    0% {
+        opacity: 0;
+        transform: scale(1.1);
+    }
+
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@media screen and (max-width:480px) {
+    .photo {
+        left: -8%;
+    }
+}
+
+
+.container {
+    width: 100%;
     margin: auto;
-    margin-top: 5%; 
-    position: absolute;
+    margin-top: 5%;
+    position: relative;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
 }
 
-a{
+a {
     text-decoration: none;
-    transition: all 1.5s;
+    transition:  .5s;
 }
-.awhite{
-    font-weight: 700;
-    font-size: 110px;
-    margin: 5px;
-    margin-right: 100px;
+
+.awhite {
     color: white;
-    /* color: rgb(229, 255, 0); */
-    transition: all 0.5s;
-    animation: animation 3.0s;
+    transition: all 0.8s;
+	display: block;
+	overflow: hidden;
+    animation:photo 1.2s cubic-bezier(.5, .6, .6, 1);
 }
+
 @keyframes animation {
-    0%{
+    0% {
         opacity: 0%;
     }
-    100%{
+
+    100% {
         opacity: 100%;
     }
-} 
+}
 
-.awhite:hover{
+.awhite:hover {
     cursor: pointer;
     margin-left: 20px;
     color: rgb(229, 252, 30);
@@ -59,4 +103,19 @@ a{
 
 ::-webkit-scrollbar {
     display: none;
-    }
+}
+
+
+
+
+h1 {
+	/* font-family:'Semibold'; */
+	position: fixed;
+	line-height: 110%;
+	letter-spacing: -2px;
+    /* font-size: 3.2em; general fallback */
+    /* font-size: 18vm; IE9 fallback */
+/*     font-size: 19vmin; */
+    font-size: 18vmin;
+
+}

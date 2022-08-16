@@ -6,7 +6,7 @@ import Button from '../mini-components/button';
 
 export default function Contact() {
     return (
-        <div>
+        <div className={style.container}>
             
             <Link to={'/'}>
                 <Button valor='Home'  />

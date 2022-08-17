@@ -1,5 +1,8 @@
 .container{
+    background-color: black;
     display: flex;
+    padding-bottom: 6vh;
+    padding-top: 3vh;
     flex-direction: column;
 }
 .child{
@@ -12,8 +15,8 @@
     justify-content: center;
 }
 .images{
-    height: 200px;
-    width: 400px;
+    height: 350px;
+    width: 650px;
 }
 
 /*  */
@@ -24,4 +27,9 @@
 }
 .galery_img{
     width: 100%;
+}
+.imgp{
+    margin: 5px;
+    height: 300px;
+    width: 200px;
 }

@@ -26,9 +26,10 @@ export default function Contact() {
             </section>
             <div >
                 <a href='https://www.linkedin.com/in/dominguezthomas/' target={'_blank'} className={style.animate}>Linkedin</a>
-                <a href='https://github.com/thomasHeitFux/' target={'_blank'} className={style.animate}>Github</a>
+                <a href='https://www.instagram.com/thomas_heitfux/' target={'_blank'} className={style.animate}>Instagram</a>
+                <a href='https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=DmwnWrRpclTVnrtwQBmmSZhmkzcBkxbKSFhwGWDGRLxvxgtMsLScvqHGrvZwZMmDpDwVTqqGGjSv' target={'_blank'} className={style.animate}>thomas41392@gmail.com</a>
             </div>
-            <form method="post" action="#">
+            {/* <form method="post" action="#">
                 <div className={style.father}>
                     <div className={style.div1}><input type="text" name="name" placeholder="Name" /></div>
                     <div className={style.div2}><input type="text" name="email" placeholder="Email" /></div>
@@ -42,7 +43,7 @@ export default function Contact() {
                     </div>
 
                 </div>
-            </form>
+            </form> */}
         </div>
     )
 }

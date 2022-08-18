@@ -16,7 +16,8 @@ export default function About() {
                     I don’t like to define myself by the work I’ve done. I define myself by the work I want to do.  I want to keep learning, continue challenging myself, and do interesting things that matter
                 </p>
                 <p>
-                    I like to develop expertise in a number of areas over the course of my life and career. My personality type is ENTJ.
+                    I like to develop expertise in a number of areas over the course of my life and career.
+                     {/* My personality type is ENTJ. */}
                 </p>
             </div>
         </div>

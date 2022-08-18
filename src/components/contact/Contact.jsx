@@ -17,8 +17,8 @@ export default function Contact() {
                 <p >Busco oportunidades para colaborar con empresas/agencias/individuos, no solo trabajar para ellos. Quiero traer mi experiencia de diseño colectivo a la mesa donde podamos trabajar juntos para resolver problemas comerciales reales de una manera que optimice toda nuestra experiencia y conocimiento respectivos.
                 </p>
                 <p>
-                    Quiero evitar conflictos sin sentido y favorecer a los colaboradores de mente abierta donde los egos están fuera de la ecuación.
-                    Si todo eso suena bien, entonces conversemos sobre cómo podemos trabajar juntos.
+                    {/* Quiero evitar conflictos sin sentido y favorecer a los colaboradores de mente abierta donde los egos están fuera de la ecuación.
+                    Si todo eso suena bien, entonces conversemos sobre cómo podemos trabajar juntos. */}
                 </p>
                 <p>
                     No dude en comunicarse a través de cualquiera de las plataformas a continuación:

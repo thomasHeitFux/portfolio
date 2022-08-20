@@ -16,8 +16,9 @@ body {
 
 .father {
     display: flex;
-    /* min-width: 320px;
- max-width: 1000px; */
+    /* flex-direction: column; */
+    /* align-items: flex-end; */
+    /* justify-content: end; */
 }
 
 .photo {
@@ -33,7 +34,6 @@ body {
     animation: photo 1.2s cubic-bezier(.5, .6, .6, 1);
     animation-fill-mode: backwards;
     width: 700px;
-    /* object-fit: cover; */
 }
 
 @media screen and (max-width: 767px) {
@@ -71,7 +71,7 @@ body {
     align-items: center;
 }
 
-a {
+a{
     text-decoration: none;
     transition:  .5s;
 }
@@ -105,17 +105,14 @@ a {
     display: none;
 }
 
-
-
-
 h1 {
-	/* font-family:'Semibold'; */
 	position: fixed;
 	line-height: 110%;
 	letter-spacing: -2px;
-    /* font-size: 3.2em; general fallback */
-    /* font-size: 18vm; IE9 fallback */
-/*     font-size: 19vmin; */
     font-size: 18vmin;
-
+}
+.icons{
+    height: 95vh;
+    display: flex;
+    align-items: flex-end;
 }

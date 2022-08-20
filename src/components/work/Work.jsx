@@ -19,91 +19,74 @@ import { Link } from "react-router-dom"
 export default function Work() {
     return (
         <div className={style.container}>
-            <div className={style.back}>
-                <Link to={'/'}>
-                    <Button valor='Home' />
-                </Link>
-            </div>
+            <Link to={'/'}>
+                <Button valor='Home' />
+            </Link>
 
+                <h2 className={style.title}>Some of My Work</h2>
             <section className={style.section}>
-                <div>
-                <div >
-                        <a href='https://poke-app-three-bice.vercel.app/' target='_blank' className={style.child}>
-                            <h2>Marvel-App</h2>
-                        </a>
-                        <p>Esta app fue la primera que realice con React Native es una app ludica con tematica en marvel, la misma permite visualizar el listado de personajes y sus respectivos detalles,y buscar por nombre. si bien es bastante sencilla me sirvio para reforzar un poco los conocimientos en react y tambien como primer acercamiento a react native</p>
-                        <figure className={style.galery_img}>
-                            <a href="https://poke-app-three-bice.vercel.app/" target="_blank" rel="noopener noreferrer">
+                <div className={style.card}>
+                    <figure >
                             <img className={style.imgp} src={spidey3} />
                             <img className={style.imgp} src={spidey2} />
                             <img className={style.imgp} src={spidey1} />
-                            </a>
-                        </figure>
-                    </div>
+                    </figure>
                     
-                    <div >
-                        <a href='https://poke-app-three-bice.vercel.app/' target='_blank' className={style.child}>
-                            <h2>Pokemon-App</h2>
-                        </a>
-                        <p>Esta app fue la primera single page aplication que realice es una app ludica con tematica en pokemon, la misma permite visualizar el listado de personajes y sus respectivos detalles, tambien se puede filtrar , buscar por nombre y tambien crear tu propio personaje</p>
-                        <figure className={style.galery_img}>
-                            <a href="https://poke-app-three-bice.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <p className={style.techs}>React Native Css Marvel API</p>
+
+                    <h2  className={style.child}>Marvel-App</h2>
+                    
+                    <p className={style.text}>Esta app fue la primera que realice con React Native es una app ludica con tematica en marvel, la misma permite visualizar el listado de personajes y sus respectivos detalles,y buscar por nombre. si bien es bastante sencilla me sirvio para reforzar un poco los conocimientos en react y tambien como primer acercamiento a react native</p>
+                    <div className={style.links}>
+                    <a className={style.icon} href="http://" target="_blank" rel="noopener noreferrer">
+                    <ion-icon  name="link-outline"></ion-icon>         
+                    </a>
+                    <a className={style.icon} href="https://github.com/thomasHeitFux/Marvel-RN"  target="_blank">
+                    <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                    </div>
+                </div>
+
+                <div className={style.card} >
+                    <figure >
                             <img className={style.images} src={pokemon} />
-                            </a>
-                        </figure>
+                    </figure>
+
+                    <p className={style.techs}>React Redux Node.js Express</p>
+
+                    <h2 className={style.child}>Pokemon-App</h2>
+                
+                    <p className={style.text}>Esta app fue la primera single page aplication que realice es una app ludica con tematica en pokemon, la misma permite visualizar el listado de personajes y sus respectivos detalles, tambien se puede filtrar , buscar por nombre y tambien crear tu propio personaje
+                    </p>
+                    <div className={style.links}>
+                    <a className={style.icon} href='https://poke-app-three-bice.vercel.app/' target='_blank' >
+                    <ion-icon name="link-outline"></ion-icon>
+                    </a>
+                    <a className={style.icon} href="https://github.com/thomasHeitFux/pokemon_front" target="_blank" rel="noopener noreferrer">
+                    <ion-icon  name="logo-github"></ion-icon>
+                    </a>
                     </div>
+                </div>
 
-                    <div >
-                        <a href='https://planb-rho.vercel.app/' target='_blank' className={style.child}>
-                            <h2>Shoes-Ecommerce</h2>
-                        </a>
-                        <p>plan-b es un ecommerce de calzados que desarrollamos con el equipo asignado para el proyecto final de henry conformado por 8 integrantes, la app cuenta con logueo por gmail o email, pasarela de pago utilizando mercadopago, listado y detalles de productos, carrito de compras, perfil de usuario , y tambien cuenta con la interfaz del administrador donde se puedo consultar y modificar productos agregar o quitar stock tambien se pueden ver las cantidades vendidas y canceladas, tambien permite ver a los usuarios registrados y hacer modificaciones como bannearlos o agregar rol de vendedor en caso de asi quererlo entre otras cosas</p>
-                        <figure className={style.galery_img}>
-                        <a href='https://planb-rho.vercel.app/' target='_blank' className={style.child}>
-                            <img className={style.images} src={ecommerce1} />
-                        </a>
-                        </figure>
+                <div className={style.card}>
+                    <figure >
+                        <img className={style.images} src={ecommerce1} />
+                    </figure>
+
+                    <p className={style.techs}>React  Redux  TailwindCss Node.js</p>
+                   
+                    <h2 className={style.child}>Shoes-Ecommerce</h2>
+               
+                    <p className={style.text}>plan-b es un ecommerce de calzados que desarrollamos con el equipo asignado para el proyecto final de henry conformado por 8 integrantes, la app cuenta con logueo por gmail o email, pasarela de pago utilizando mercadopago, listado y detalles ificaciones como bannearlos o agregar rol de vendedor en caso de asi quererlo entre otras cosas
+                    </p>
+                    <div className={style.links}>
+                    <a  className={style.icon} href='https://planb-rho.vercel.app/' target='_blank' >
+                    <ion-icon name="link-outline"></ion-icon>
+                    </a>
+                    <a className={style.icon} href="https://github.com/txakurhub/pfinal_client" target="_blank" rel="noopener noreferrer">
+                    <ion-icon name="logo-github"></ion-icon>
+                    </a>
                     </div>
-
-
-
-                    {/* <section className={style.galery}> */}
-
-
-                    {/* 
-                    <figure className={style.galery_img}>
-                    <img className={style.images} src={ecommerce2} />
-                    </figure>
-
-                    <figure className={style.galery_img}>
-                    <img className={style.images} src={ecommerce3} />
-                    </figure>
-
-                    <figure className={style.galery_img}>
-                    <img className={style.images} src={ecommerce4} />
-                    </figure>
-                    
-                    <figure className={style.galery_img}>
-                    <img className={style.images} src={admin1} />
-                    </figure>
-                    
-                    <figure className={style.galery_img}>
-                    <img className={style.images} src={admin2} />
-                    </figure>
-                    
-                    <figure className={style.galery_img}>
-                    <img className={style.images} src={admin3} />
-                    </figure>
-                    
-                    <figure className={style.galery_img}>
-                    <img className={style.images} src={admin4} />
-                    </figure>
-
-                    <figure className={style.galery_img}>
-                    <img className={style.images} src={admin5} />
-                    </figure> */}
-
-                    {/* </section> */}
                 </div>
             </section>
 

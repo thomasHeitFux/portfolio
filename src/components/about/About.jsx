@@ -10,14 +10,28 @@ export default function About() {
                 <Button valor='Home' />
             </Link>
             <div className={style.container}>
-                <p >Hi, I’m Thomas. I'm full stack developer  with 1 year of experience working on academic and own proyects.
+                <p >I’m a full stack web developer from Argentina, who enjoys the creation of projects. Recently, I graduated from a full-stack coding Bootcamp and want to start developing my career in the tech world.
+                </p>
+
+                <p>
+                    An enthusiastic person, challenge-lover, and someone that always wants something new to learn about.
+                </p>
+
+                <p>
+                    Whenever I’m not coding, you can find me either playing videogames or learning a song on the guitar
                 </p>
                 <p>
-                    I don’t like to define myself by the work I’ve done. I define myself by the work I want to do.  I want to keep learning, continue challenging myself, and do interesting things that matter
-                </p>
-                <p>
-                    I like to develop expertise in a number of areas over the course of my life and career.
-                     {/* My personality type is ENTJ. */}
+                    Some of the technologies I've been working with recently are...
+                    <span><br/></span><br/>
+                <ul>
+                    <li><ion-icon name="logo-javascript"></ion-icon> JavaScript (ES6)</li>
+                    <li><ion-icon name="logo-react"></ion-icon>React</li>
+                    <li><ion-icon name="logo-css3"></ion-icon>Css</li>
+                    <li><ion-icon name="logo-nodejs"></ion-icon>Node.js</li>
+                    <li>Express.js</li>
+                    <li>postgreSQL</li>
+                </ul>
+                   
                 </p>
             </div>
         </div>

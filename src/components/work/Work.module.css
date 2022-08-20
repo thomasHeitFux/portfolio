@@ -1,35 +1,72 @@
-.container{
+.container {
     background-color: black;
-    display: flex;
     padding-bottom: 6vh;
     padding-top: 3vh;
-    flex-direction: column;
+    min-width: 320px;
 }
-.child{
-    color: white;
-}
-.section{
-    color: white;
+.section {
+    width: 100%;
     display: flex;
     flex-direction: row;
+    gap: 40px;
+    margin: 30px;
+    color: white;
+    flex-wrap: wrap;
     justify-content: center;
 }
-.images{
-    height: 350px;
-    width: 650px;
+
+.card {
+    width: 300px;
+    background-color: #111;
+    border-radius: 4px;
+    transition: 0.9s;
+}
+.card:hover{
+    background-color: #220;
+}
+.imgp {
+    width: 91px;
+    margin: 3px;
+    border-radius: 2px;
+}
+.images {
+    border-radius: 2px;
+    width: 300px;
+    height: 165px;
+}
+.child {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    margin: 15px;
+    text-align: left;
 }
 
-/*  */
-.galery{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 5px;
+.text{
+    text-align: left;
+    margin: 15px;
+    color: #ccc;
 }
-.galery_img{
-    width: 100%;
+.techs{
+    text-align: left;
+    margin: 15px;
+    color: #df1;
+    font-size: smaller;
 }
-.imgp{
-    margin: 5px;
-    height: 300px;
-    width: 200px;
+.icon{
+    color: #df1;
+    text-decoration: none;
+}
+ion-icon {
+    font-size: 30px;
+  }
+.links{
+    display: flex;
+    gap: 10px;
+    text-align: left;
+    margin: 15px;
+}
+.title{
+    color: #fff;
+    /* text-align: left; */
 }

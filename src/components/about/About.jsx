@@ -24,12 +24,12 @@ export default function About() {
                     Some of the technologies I've been working with recently are...
                     <span><br/></span><br/>
                 <ul>
-                    <li><ion-icon name="logo-javascript"></ion-icon> JavaScript (ES6)</li>
-                    <li><ion-icon name="logo-react"></ion-icon>React</li>
-                    <li><ion-icon name="logo-css3"></ion-icon>Css</li>
-                    <li><ion-icon name="logo-nodejs"></ion-icon>Node.js</li>
-                    <li>Express.js</li>
-                    <li>postgreSQL</li>
+                    <ion-icon name="logo-javascript"></ion-icon> JavaScript (ES6)
+                    <ion-icon name="logo-react"></ion-icon>React
+                    <ion-icon name="logo-css3"></ion-icon>Css
+                    <ion-icon name="logo-nodejs"></ion-icon>Node.js
+                    Express.js
+                    postgreSQL
                 </ul>
                    
                 </p>

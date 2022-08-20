@@ -5,23 +5,20 @@
         color: white;
         margin-top: 3vh;
         text-align: left;
-        width: 50%;
+        width: 80%;
         display: flex;
         flex-direction: column;
         gap: 5vh;
-        margin-left: 25%;
-
+        text-align: left;
+        margin: 15px;
 }
 .father {
-        padding-bottom: 3vh;
+        padding-bottom: 29vh;
         padding-top: 3vh;
         background-color: #000;
 }
 ul{
         list-style: none;
-}
-li{
-        margin-top: 10px;
 }
 ion-icon{
         margin-right: 10px;

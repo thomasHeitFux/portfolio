@@ -49,11 +49,11 @@
 .techs{
     text-align: left;
     margin: 15px;
-    color: #df1;
+    color: rgb(229, 252, 30);
     font-size: smaller;
 }
 .icon{
-    color: #df1;
+    color: rgb(229, 252, 30);
     text-decoration: none;
 }
 ion-icon {

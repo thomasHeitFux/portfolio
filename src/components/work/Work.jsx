@@ -23,48 +23,50 @@ export default function Work() {
                 <Button valor='Home' />
             </Link>
 
-                <h2 className={style.title}>Some of My Work</h2>
+            <h2 className={style.title}>Some of My Work</h2>
             <section className={style.section}>
                 <div className={style.card}>
                     <figure >
-                            <img className={style.imgp} src={spidey3} />
-                            <img className={style.imgp} src={spidey2} />
-                            <img className={style.imgp} src={spidey1} />
+                        <img className={style.imgp} src={spidey3} />
+                        <img className={style.imgp} src={spidey2} />
+                        <img className={style.imgp} src={spidey1} />
                     </figure>
-                    
+
                     <p className={style.techs}>React Native Css Marvel API</p>
 
-                    <h2  className={style.child}>Marvel-App</h2>
-                    
-                    <p className={style.text}>Esta app fue la primera que realice con React Native es una app ludica con tematica en marvel, la misma permite visualizar el listado de personajes y sus respectivos detalles,y buscar por nombre. si bien es bastante sencilla me sirvio para reforzar un poco los conocimientos en react y tambien como primer acercamiento a react native</p>
+                    <h2 className={style.child}>Marvel-App</h2>
+
+                    <p className={style.text}>
+                    Search for a character from the Marvel universe and let the app display a card with their information. With different images and information according to the data provided by the Marvel API, this was one of my first applications developed with react native</p>
                     <div className={style.links}>
-                    <a className={style.icon} href="http://" target="_blank" rel="noopener noreferrer">
-                    <ion-icon  name="link-outline"></ion-icon>         
-                    </a>
-                    <a className={style.icon} href="https://github.com/thomasHeitFux/Marvel-RN"  target="_blank">
-                    <ion-icon name="logo-github"></ion-icon>
-                    </a>
+                        <a className={style.icon} href="http://" target="_blank" rel="noopener noreferrer">
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                        <a className={style.icon} href="https://github.com/thomasHeitFux/Marvel-RN" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
                     </div>
                 </div>
 
                 <div className={style.card} >
                     <figure >
-                            <img className={style.images} src={pokemon} />
+                        <img className={style.images} src={pokemon} />
                     </figure>
 
                     <p className={style.techs}>React Redux Node.js Express</p>
 
                     <h2 className={style.child}>Pokemon-App</h2>
-                
-                    <p className={style.text}>Esta app fue la primera single page aplication que realice es una app ludica con tematica en pokemon, la misma permite visualizar el listado de personajes y sus respectivos detalles, tambien se puede filtrar , buscar por nombre y tambien crear tu propio personaje
+
+                    <p className={style.text}>
+                        Single Page Application that displays pokemons brought through the use of an external API; the app is capable of paginating the results, sort them either by alphabetical order or rating, filter the results by creation type or genres, and much more.
                     </p>
                     <div className={style.links}>
-                    <a className={style.icon} href='https://poke-app-three-bice.vercel.app/' target='_blank' >
-                    <ion-icon name="link-outline"></ion-icon>
-                    </a>
-                    <a className={style.icon} href="https://github.com/thomasHeitFux/pokemon_front" target="_blank" rel="noopener noreferrer">
-                    <ion-icon  name="logo-github"></ion-icon>
-                    </a>
+                        <a className={style.icon} href='https://poke-app-three-bice.vercel.app/' target='_blank' >
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                        <a className={style.icon} href="https://github.com/thomasHeitFux/pokemon_front" target="_blank" rel="noopener noreferrer">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
                     </div>
                 </div>
 
@@ -74,18 +76,22 @@ export default function Work() {
                     </figure>
 
                     <p className={style.techs}>React  Redux  TailwindCss Node.js</p>
-                   
+
                     <h2 className={style.child}>Shoes-Ecommerce</h2>
-               
-                    <p className={style.text}>plan-b es un ecommerce de calzados que desarrollamos con el equipo asignado para el proyecto final de henry conformado por 8 integrantes, la app cuenta con logueo por gmail o email, pasarela de pago utilizando mercadopago, listado y detalles ificaciones como bannearlos o agregar rol de vendedor en caso de asi quererlo entre otras cosas
+
+                    <p className={style.text}>
+                        Plan-B is an ecommerce that allows you to buy
+                        and sell
+                        sneakers .
+                        I was in charge of engineering both the front-end of the site and the back-end, designing some components, adding styles to others and contributing to the development of the back-end of the application.sas
                     </p>
                     <div className={style.links}>
-                    <a  className={style.icon} href='https://planb-rho.vercel.app/' target='_blank' >
-                    <ion-icon name="link-outline"></ion-icon>
-                    </a>
-                    <a className={style.icon} href="https://github.com/txakurhub/pfinal_client" target="_blank" rel="noopener noreferrer">
-                    <ion-icon name="logo-github"></ion-icon>
-                    </a>
+                        <a className={style.icon} href='https://planb-rho.vercel.app/' target='_blank' >
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                        <a className={style.icon} href="https://github.com/txakurhub/pfinal_client" target="_blank" rel="noopener noreferrer">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
                     </div>
                 </div>
             </section>

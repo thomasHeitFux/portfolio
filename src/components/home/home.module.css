@@ -16,9 +16,7 @@ body {
 
 .father {
     display: flex;
-    /* flex-direction: column; */
-    /* align-items: flex-end; */
-    /* justify-content: end; */
+
 }
 
 .photo {
@@ -62,13 +60,13 @@ body {
 
 
 .container {
-    width: 100%;
+    width: 50%;
     margin: auto;
     margin-top: 5%;
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
 }
 
 a {
@@ -123,8 +121,10 @@ h1 {
         background-color: black;
         left: -35%;
     }
-
     .awhite {
         color: rgb(229, 252, 30);
+    }
+    .container{
+        left: 35%;
     }
 }

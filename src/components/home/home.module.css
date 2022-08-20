@@ -5,7 +5,7 @@
 
 body {
     background-color: rgb(0, 0, 0);
-    min-height: 100vh; 
+    min-height: 100vh;
     background-image: url("../../images/background.png");
     background-size: contain;
     background-repeat: no-repeat;
@@ -22,7 +22,7 @@ body {
 }
 
 .photo {
-    z-index: -9;
+    /* z-index: -9; */
     position: fixed;
     top: 0;
     right: 0;
@@ -71,17 +71,17 @@ body {
     align-items: center;
 }
 
-a{
+a {
     text-decoration: none;
-    transition:  .5s;
+    transition: .5s;
 }
 
 .awhite {
     color: white;
     transition: all 0.8s;
-	display: block;
-	overflow: hidden;
-    animation:photo 1.2s cubic-bezier(.5, .6, .6, 1);
+    display: block;
+    overflow: hidden;
+    animation: photo 1.2s cubic-bezier(.5, .6, .6, 1);
 }
 
 @keyframes animation {
@@ -106,13 +106,25 @@ a{
 }
 
 h1 {
-	position: fixed;
-	line-height: 110%;
-	letter-spacing: -2px;
+    position: fixed;
+    line-height: 110%;
+    letter-spacing: -2px;
     font-size: 18vmin;
 }
-.icons{
+
+.icons {
     height: 95vh;
     display: flex;
     align-items: flex-end;
+}
+
+@media screen and (max-width: 650px) {
+    .photo {
+        background-color: black;
+        left: -46%;
+    }
+
+    .awhite {
+        color: rgb(229, 252, 30);
+    }
 }

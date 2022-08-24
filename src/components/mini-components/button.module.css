@@ -60,3 +60,21 @@
 .button:hover span:nth-child(4){
     top:0;
 }
+
+@media screen and (max-width: 650px) {
+    .button span:nth-child(1){
+        right:0;
+    }
+    .button span:nth-child(2){
+        left:0;
+    }
+    .button span:nth-child(3){
+        bottom:0;
+    }
+    .button span:nth-child(4){
+        top:0;
+    }
+    .button{
+        color: #fff;
+    }
+}

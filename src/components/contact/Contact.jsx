@@ -46,8 +46,8 @@ export default function Contact() {
                     <div>
                         <ion-icon name="mail-outline"></ion-icon>
                         <p>thomas41392@gmail.com</p>
-                    </div>
                         <span className={style.copied} style={toggle ? { opacity: 1 } : { opacity: 0 }}>Copied!</span>
+                    </div>
                         </a>
                       
                         <a href={cv} target={'_blank'} download="cv.docx">

@@ -1,0 +1,60 @@
+.container{
+    background-color: #000;
+    height: 100%;
+    padding: 1%;
+}
+.back{
+    background-color: #000;
+    height: 100%;
+}
+.icons{
+    width: 100%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 22.8%;
+}
+.icons section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icons section  div{
+    display: flex;
+    align-items: center;
+}
+.icons section div p{
+    color: #fff;
+}
+.container article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons section a:hover{
+    padding: 17px;
+    background-color: #333;
+}
+.icons section a{
+    width: 70%;
+    background-color: #111;
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 6px;
+    transition: 0.65s;
+}
+.copied{
+    padding: 5px;
+    background-color: rgb(229, 252, 30) ;
+    border-radius: 8px;    
+    transition: 0.9s;
+    margin-left: 10px;
+}
+.mail{
+    cursor: pointer;
+}

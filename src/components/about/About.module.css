@@ -28,10 +28,7 @@ background-color: #000;
 ul{
         list-style: none;
 }
-ion-icon{
-        margin-right: 10px;
-        color: rgb(229, 252, 30);
-}
+
 .icons{
         width: 100%;
         display: flex;

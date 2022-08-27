@@ -1,19 +1,12 @@
 import React from 'react';
 import style from "./Work.module.css";
 import ecommerce1 from '../../images/ecommerce1.jpeg'
-import ecommerce2 from '../../images/ecommerce2.jpeg'
-import ecommerce3 from '../../images/ecommerce3.jpeg'
-import ecommerce4 from '../../images/ecommerce4.jpeg'
-import admin1 from '../../images/admin1.jpeg'
-import admin2 from '../../images/admin2.jpeg'
-import admin3 from '../../images/admin3.jpeg'
-import admin4 from '../../images/admin4.jpeg'
-import admin5 from '../../images/admin5.jpeg'
 import pokemon from '../../images/pokemon.png'
 import spidey1 from '../../images/spidey1.jpeg'
 import spidey2 from '../../images/spidey2.jpeg'
 import spidey3 from '../../images/spidey3.jpeg'
 import Button from '../mini-components/button';
+import disney from '../../images/disney.png'
 import { Link } from "react-router-dom"
 
 export default function Work() {
@@ -25,46 +18,23 @@ export default function Work() {
 
             <h2 className={style.title}>Some of My Work</h2>
             <section className={style.section}>
-                <div className={style.card}>
+            <div className={style.card}>
                     <figure >
-                        <img className={style.imgp} src={spidey3} />
-                        <img className={style.imgp} src={spidey2} />
-                        <img className={style.imgp} src={spidey1} />
+                        <img className={style.images} src={disney} />
                     </figure>
 
-                    <p className={style.techs}>React Native Css Marvel API</p>
+                    <p className={style.techs}>React  Redux  Typescript Css</p>
 
-                    <h2 className={style.child}>Marvel-App</h2>
-
-                    <p className={style.text}>
-                    Search for a character from the Marvel universe and let the app display a card with their information. With different images and information according to the data provided by the Marvel API, this was one of my first applications developed with react native</p>
-                    <div className={style.links}>
-                        <a className={style.icon} href="http://" target="_blank" rel="noopener noreferrer">
-                            <ion-icon name="link-outline"></ion-icon>
-                        </a>
-                        <a className={style.icon} href="https://github.com/thomasHeitFux/Marvel-RN" target="_blank">
-                            <ion-icon name="logo-github"></ion-icon>
-                        </a>
-                    </div>
-                </div>
-
-                <div className={style.card} >
-                    <figure >
-                        <img className={style.images} src={pokemon} />
-                    </figure>
-
-                    <p className={style.techs}>React Redux Node.js Express</p>
-
-                    <h2 className={style.child}>Pokemon-App</h2>
+                    <h2 className={style.child}>Disney app</h2>
 
                     <p className={style.text}>
-                        Single Page Application that displays pokemons brought through the use of an external API; the app is capable of paginating the results, sort them either by alphabetical order or rating, filter the results by creation type or genres, and much more.
+                    Search for a character from the Diseney world and let the app display a card with their information. With different images and information according to the data provided by the Disney API, this was one of my first applications developed with Typescript
                     </p>
                     <div className={style.links}>
-                        <a className={style.icon} href='https://poke-app-three-bice.vercel.app/' target='_blank' >
+                        <a className={style.icon} href='https://diney-ts.vercel.app/' target='_blank' >
                             <ion-icon name="link-outline"></ion-icon>
                         </a>
-                        <a className={style.icon} href="https://github.com/thomasHeitFux/pokemon_front" target="_blank" rel="noopener noreferrer">
+                        <a className={style.icon} href="https://github.com/thomasHeitFux/Diney-ts" target="_blank" rel="noopener noreferrer">
                             <ion-icon name="logo-github"></ion-icon>
                         </a>
                     </div>
@@ -94,6 +64,55 @@ export default function Work() {
                         </a>
                     </div>
                 </div>
+                
+                <div className={style.card}>
+                    <figure >
+                        <img className={style.imgp} src={spidey3} />
+                        <img className={style.imgp} src={spidey2} />
+                        <img className={style.imgp} src={spidey1} />
+                    </figure>
+
+                    <p className={style.techs}>React Native Css Marvel API</p>
+
+                    <h2 className={style.child}>Marvel-App</h2>
+
+                    <p className={style.text}>
+                    Search for a character from the Marvel universe and let the app display a card with their information. With different images and information according to the data provided by the Marvel API, this was one of my first applications developed with react native</p>
+                    <div className={style.links}>
+                        <a className={style.icon} href="http://" target="_blank" rel="noopener noreferrer">
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                        <a className={style.icon} href="https://github.com/thomasHeitFux/Marvel-RN" target="_blank">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+                
+                
+
+                <div className={style.card} >
+                    <figure >
+                        <img className={style.images} src={pokemon} />
+                    </figure>
+
+                    <p className={style.techs}>React Redux Node.js Express</p>
+
+                    <h2 className={style.child}>Pokemon-App</h2>
+
+                    <p className={style.text}>
+                        Single Page Application that displays pokemons brought through the use of an external API; the app is capable of paginating the results, sort them either by alphabetical order or rating, filter the results by creation type or genres, and much more.
+                    </p>
+                    <div className={style.links}>
+                        <a className={style.icon} href='https://poke-app-three-bice.vercel.app/' target='_blank' >
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                        <a className={style.icon} href="https://github.com/thomasHeitFux/pokemon_front" target="_blank" rel="noopener noreferrer">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+
+                
             </section>
 
         </div>

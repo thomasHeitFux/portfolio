@@ -33,7 +33,10 @@ export default function About() {
                         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="50" height="50" align="center" margin-left="10px" />
                         JavaScript
                     </div>
-
+                    <div>
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"alt="TypeScript" width="50" height="50" align="center" margin-left="10px"/>
+                        TypeScript
+                    </div>
                     <div>
                         <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png" alt="react" width="50" height="50" align="center" margin-left="10px" />
                         React

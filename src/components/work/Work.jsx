@@ -7,6 +7,7 @@ import spidey2 from '../../images/spidey2.jpeg'
 import spidey3 from '../../images/spidey3.jpeg'
 import Button from '../mini-components/button';
 import disney from '../../images/disney.png'
+import globe from '../../images/globe.png'
 import { Link } from "react-router-dom"
 
 export default function Work() {
@@ -18,6 +19,28 @@ export default function Work() {
 
             <h2 className={style.title}>Some of My Work</h2>
             <section className={style.section}>
+            <div className={style.card}>
+                    <figure >
+                        <img className={style.images} src={globe} />
+                    </figure>
+
+                    <p className={style.techs}>D3 JavaScript Css Html</p>
+
+                    <h2 className={style.child}>Globe app</h2>
+
+                    <p className={style.text}>
+                    Search for a Country and let the app display info. about that country selected according to the data provided by the GeoJson API, this was my first applications developed with D3 js.
+                    </p>
+                    <div className={style.links}>
+                        <a className={style.icon} href='https://globe-nine.vercel.app/' target='_blank' >
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                        <a className={style.icon} href="https://github.com/thomasHeitFux/Globe-D3" target="_blank" rel="noopener noreferrer">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+
             <div className={style.card}>
                     <figure >
                         <img className={style.images} src={disney} />

@@ -19,8 +19,8 @@ export default function Work() {
 
             <h2 className={style.title}>Some of My Work</h2>
             <section className={style.section}>
-            <div className={style.card}>
-                    <figure >
+            {/* <div className={style.card}> */}
+                    {/* <figure >
                         <img className={style.images} src={globe} />
                     </figure>
 
@@ -61,7 +61,7 @@ export default function Work() {
                             <ion-icon name="logo-github"></ion-icon>
                         </a>
                     </div>
-                </div>
+                </div> */}
 
                 <div className={style.card}>
                     <figure >

@@ -2,7 +2,7 @@ import React from 'react';
 import style from "./contact.module.css";
 import { Link } from "react-router-dom"
 import Button from '../mini-components/button';
-import cv from '../../resume/resume.docx'
+import cv from '../../resume/resume.pdf'
 import {useState} from 'react'
 
 export default function Contact() {

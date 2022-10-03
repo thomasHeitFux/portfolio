@@ -8,6 +8,7 @@ import spidey3 from '../../images/spidey3.jpeg'
 import Button from '../mini-components/button';
 import disney from '../../images/disney.png'
 import globe from '../../images/globe.png'
+import weather from '../../images/weatherapp.png'
 import { Link } from "react-router-dom"
 
 export default function Work() {
@@ -130,6 +131,28 @@ export default function Work() {
                             <ion-icon name="link-outline"></ion-icon>
                         </a>
                         <a className={style.icon} href="https://github.com/thomasHeitFux/pokemon_front" target="_blank" rel="noopener noreferrer">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </div>
+                </div>
+{/* weatherapp */}
+                <div className={style.card}>
+                    <figure >
+                        <img className={style.images} src={weather} />
+                    </figure>
+
+                    <p className={style.techs}>React  Bootstrap Sass OpenWeather Api </p>
+
+                    <h2 className={style.child}>Weather-App</h2>
+
+                    <p className={style.text}>
+                    Search for a city located anywhere in the world and let the app display a card with its current weather information. With varying images and information according to the data brought by Open Weather API, this was one of my first apps, and recently got a little CSS update!
+                    </p>
+                    <div className={style.links}>
+                        <a className={style.icon} href='https://weatherapp-kappa-inky.vercel.app/' target='_blank' >
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                        <a className={style.icon} href="https://github.com/thomasHeitFux/WeatherApp" target="_blank" rel="noopener noreferrer">
                             <ion-icon name="logo-github"></ion-icon>
                         </a>
                     </div>

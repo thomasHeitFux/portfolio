@@ -1,0 +1,72 @@
+.container {
+    background-color: black;
+    padding-bottom: 6vh;
+    padding-top: 3vh;
+    min-width: 320px;
+}
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    background-color: #111;
+    border-radius: 4px;
+    transition: 0.9s;
+}
+.card:hover{
+    background-color: #220;
+}
+.imgp {
+    width: 91px;
+    margin: 3px;
+    border-radius: 2px;
+}
+.images {
+    border-radius: 2px;
+    width: 300px;
+    height: 165px;
+}
+.child {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: white;
+    margin: 15px;
+    text-align: left;
+}
+
+.text{
+    text-align: left;
+    margin: 15px;
+    color: #ccc;
+}
+.techs{
+    text-align: left;
+    margin: 15px;
+    color: rgb(229, 252, 30);
+    font-size: smaller;
+}
+.icon{
+    color: rgb(229, 252, 30);
+    text-decoration: none;
+}
+.icon ion-icon {
+    font-size: 30px;
+  }
+.links{
+    display: flex;
+    gap: 10px;
+    text-align: left;
+    margin: 15px;
+}
+.title{
+    color: #fff;
+    margin-bottom: 20px;
+}

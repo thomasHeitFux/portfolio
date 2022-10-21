@@ -37,7 +37,7 @@ export default function Work() {
                     img={disney}
                     techs={'React  Redux  Typescript Bootstrap'}
                     name={'Disney app'}
-                    description={'Search for a character from the Diseney world and let the app display a card with their information. With different images and information according to the data provided by the Disney API, this was one of my first applications developed with Typescript'}
+                    description={'Search for a character from the  world and let the app display a card with their information. With different images and information according to the data provided by the Disney API, this was one of my first applications developed with Typescript'}
                     url='https://diney-ts.vercel.app/'
                     github='https://github.com/thomasHeitFux/Diney-ts'
                 />
@@ -54,10 +54,10 @@ export default function Work() {
 
                 <Card
                     img={[spidey3,spidey2,spidey1]}
-                    techs={'React  Redux  TailwindCss Node.js'}
-                    name={'Shoes - Ecommerce'}
-                    description={'Plan-B is an ecommerce that allows you to buyand sells neakers .I was in charge of engineering both the front-end of the site and the back-end, designing some components, adding styles to others and contributing to the development of the back-end of the application.sas'}
-                    url='https://planb-rho.vercel.app/'
+                    techs={'React Native  Redux  Css'}
+                    name={'Marvel App'}
+                    description={"Let the app display a card with Marvel characters information according to the data provided by the Marvel API, this was my first applications developed with react native. if you have expo go on your phone you can try it by yourself with this link exp://exp.host/@thomasfux/Marvel-App"}
+                    url='https://www.youtube.com/shorts/I_ChW6vNYpw'
                     github='https://github.com/txakurhub/pfinal_client'
                 />  
 
@@ -81,7 +81,6 @@ export default function Work() {
                  github='https://github.com/thomasHeitFux/WeatherApp'
                 />
             </section>
-
         </div>
     )
 }

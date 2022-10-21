@@ -50,7 +50,7 @@ export default function Contact() {
                     </div>
                         </a>
                       
-                        <a href={cv} target={'_blank'} download="cv.docx">
+                        <a href={cv} target={'_blank'} download="cv.pdf">
                     <div>
                             <ion-icon name="document-attach-outline"></ion-icon>
                         <p>resume</p>

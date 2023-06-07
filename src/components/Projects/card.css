@@ -1,0 +1,38 @@
+.card-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; /* Ajusta la altura deseada */
+  }
+  
+  .project-card-image {
+    width: auto;
+    height: 70%;
+    object-fit: cover;
+  }
+
+
+  
+  .project-card-view {
+    width: 70%; /* Define el ancho de la tarjeta al 50% */
+    margin: 0 auto; /* Centra la tarjeta horizontalmente */
+  }
+  
+  @media (max-width: 767px) {
+    .card-video-container {
+      position: relative;
+      padding-bottom: 56.25%; /* Relación de aspecto 16:9 para 16:9 videos */
+      height: 0;
+      overflow: hidden;
+    }
+  
+    .card-video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+  
+  
